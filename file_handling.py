@@ -26,3 +26,4 @@ def file_validation(file_name : str) -> dict | str:
     
 if __name__=="__main__":
     print(file_validation("file.txt"))
+    print(file_validation("empty.txt"))
