@@ -37,5 +37,25 @@ The program converts valid values to integers and ignores invalid ones using exc
 
 <img width="527" height="158" alt="image" src="https://github.com/user-attachments/assets/3db8d6ad-3a5e-4b79-9482-2bc09070e3e8" />
 
+## 3. Custom Validation Exception
+
+This example demonstrates how to create and use a custom exception in Python.
+
+A custom exception `InvalidDistanceError` is defined and raised when the distance value is not within the allowed range.
+
+Conditions:
+- Distance must be greater than 0
+- Distance must not exceed 1000
+
+If the value is invalid, the program raises an exception and prints an error message.
+
+### Implementation
+<img width="842" height="745" alt="image" src="https://github.com/user-attachments/assets/1ece17bf-cce4-45c3-bef5-2736a438720b" />
+
+### Output 
+<img width="493" height="136" alt="image" src="https://github.com/user-attachments/assets/18de386e-a911-4d6e-b81f-863b8889d44a" />
+
+
+
 
 
