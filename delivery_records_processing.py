@@ -6,11 +6,8 @@ deliveries = [
 ]
 
 def get_valid_deliveries(deliveries):
-    valid_deliveries = []
-    for delivery in deliveries:
-        if delivery["distance"] > 0 and delivery["status"]=="completed":
-            valid_deliveries.append(delivery)
-    return valid_deliveries
+    
+    return [delivery for delivery in deliveries if delivery["distance"] > 0 and delivery["status"] == "completed"]
 
 if __name__ == "__main__":
     print("Valid deliveries: ")
