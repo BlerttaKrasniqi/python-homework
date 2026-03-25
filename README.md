@@ -1,4 +1,4 @@
-## 1. Delivery Records Processing
+<img width="902" height="103" alt="image" src="https://github.com/user-attachments/assets/8517860f-3728-42f1-b167-bcbd304d3bc8" />## 1. Delivery Records Processing
 
 This example processes a list of delivery records and filters only the valid ones.
 
@@ -54,6 +54,26 @@ If the value is invalid, the program raises an exception and prints an error mes
 
 ### Output 
 <img width="493" height="136" alt="image" src="https://github.com/user-attachments/assets/18de386e-a911-4d6e-b81f-863b8889d44a" />
+
+## 4. Text Analysis
+
+This example analyzes a text and counts how many times each word appears.
+
+The text is converted to lowercase so that words like "Python" and "python" are treated as the same word.  
+The result is stored in a dictionary where:
+
+- key = word
+- value = number of occurrences
+
+### Implementation
+<img width="960" height="463" alt="image" src="https://github.com/user-attachments/assets/ef416b35-b960-4167-a380-3cb6d0747757" />
+
+### Output
+<img width="902" height="103" alt="image" src="https://github.com/user-attachments/assets/c3148f49-0573-40a5-8f02-0e7cf3ff1f90" />
+
+
+
+
 
 
 
