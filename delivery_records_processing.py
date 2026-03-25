@@ -5,7 +5,16 @@ deliveries = [
     {"delivery_id":4, "distance":20, "status":"completed"}
 ]
 
-def get_valid_deliveries(deliveries):
+def get_valid_deliveries(deliveries : list[dict])->list[dict]:
+    """
+    Filter deliveries that have a positive distance and status completed.
+
+    Args:
+        deliveries (list[dict]): List of delivery records.
+
+    Returns:
+        list[dict]: List containing only valid deliveries.
+    """
     
     return [delivery for delivery in deliveries if delivery["distance"] > 0 and delivery["status"] == "completed"]
 

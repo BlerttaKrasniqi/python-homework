@@ -6,9 +6,18 @@ accounts = [
 ]
 
 
+def validate_data(accounts:list[dict]) -> list[dict]:
 
+    """
+    Validate data based on account details 
+    Every account must have an account_id, name of the owner and a valid balance
 
-def validate_data(accounts):
+    Args: 
+        accounts (list): A list of dictionaries containing account details 
+
+    Returns:
+        invalid_records (list): A list of dictionaries containing the issued record and the issue
+    """
     invalid_records = []
     
     for account in accounts:
