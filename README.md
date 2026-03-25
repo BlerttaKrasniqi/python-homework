@@ -1,4 +1,4 @@
-<img width="902" height="103" alt="image" src="https://github.com/user-attachments/assets/8517860f-3728-42f1-b167-bcbd304d3bc8" />## 1. Delivery Records Processing
+## 1. Delivery Records Processing
 
 This example processes a list of delivery records and filters only the valid ones.
 
