@@ -101,11 +101,13 @@ It also handles error cases:
 
 Exception handling is used to prevent the program from crashing.
 
+
 ### Implementation
 
 <img width="863" height="704" alt="image" src="https://github.com/user-attachments/assets/c15f3c7b-1f5d-4399-8e35-751ecaee8b9d" />
 
 ### Output
+In the example below, the first output is for a file that has content and the second output is for an empty file.
 <img width="542" height="91" alt="image" src="https://github.com/user-attachments/assets/2b0eb07c-5f1d-45af-aff3-c775aadff92e" />
 
 ## 7. Data Integrity Check
